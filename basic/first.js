@@ -58,6 +58,19 @@ const ul = React.createElement(
   [li1, li2, li3]
 );
 
+const card=React.createElement("p", {
+    fontSize: "80px",
+    fontWeight: "1500",
+    backgroundColor: "blue",
+    border: "2px solid black",
+    height: "900px",
+    width: "100%",
+    textAlign: "center",
+    padding: "20px 30px",
+    borderRadius: "20px",
+  },"Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora exercitationem, nihil praesentium doloremque, quaerat voluptates nam rem similique esse qui quam iure dicta aliquam est saepe laborum dolorum, maiores asperiores?")
+
 ReactDom.render(header1, document.getElementById("root"));
 ReactDom.render(header2, document.getElementById("root"));
 ReactDom.render(ul, document.getElementById("root"));
+ReactDom.render(card, document.getElementById("root"));
